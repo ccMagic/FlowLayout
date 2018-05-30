@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ccmagic="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myGray"
+    android:orientation="vertical"
+    tools:context="io.github.ccmagic.flowlayout.MainActivity">
+
+    <io.github.ccmagic.flowlayout.LabelViewGroup
+        android:id="@+id/label_vg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        ccmagic:label_border_width="0.5dp"
+        ccmagic:label_text_size="12sp"
+        ccmagic:layout_constraintBottom_toBottomOf="parent"
+        ccmagic:layout_constraintLeft_toLeftOf="parent"
+        ccmagic:layout_constraintRight_toRightOf="parent"
+        ccmagic:layout_constraintTop_toTopOf="parent"
+        ccmagic:single_padding_bottom="6dp"
+        ccmagic:single_padding_left="16dp"
+        ccmagic:single_padding_right="16dp"
+        ccmagic:single_padding_top="5dp"
+        ccmagic:view_margin_X="16dp"
+        ccmagic:view_margin_Y="13dp" />
+
+    <io.github.ccmagic.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        ccmagic:flow_view_margin_X="16dp"
+        ccmagic:flow_view_margin_Y="13dp">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:background="@color/btnBlue" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@color/mediumVioletred" />
+
+        <View
+            android:layout_width="6dp"
+            android:layout_height="70dp"
+            android:background="@color/mediumAquamarine" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@color/violet" />
+    </io.github.ccmagic.flowlayout.FlowLayout>
+</LinearLayout>

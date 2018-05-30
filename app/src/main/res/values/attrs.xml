@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义标签-->
+    <declare-styleable name="LabelViewGroup">
+        <!--字体大小-->
+        <attr name="label_text_size" format="dimension" />
+        <!--边框宽度-->
+        <attr name="label_border_width" format="dimension" />
+        <!--各个标签之间的横向距离-->
+        <attr name="view_margin_X" format="dimension" />
+        <!--各个标签之间的纵向距离-->
+        <attr name="view_margin_Y" format="dimension" />
+        <!--单个标签的内部左侧padding-->
+        <attr name="single_padding_left" format="dimension" />
+        <!--单个标签的内部上侧padding-->
+        <attr name="single_padding_top" format="dimension" />
+        <!--单个标签的内部右侧padding-->
+        <attr name="single_padding_right" format="dimension" />
+        <!--单个标签的内部下侧padding-->
+        <attr name="single_padding_bottom" format="dimension" />
+    </declare-styleable>
+    <!--自定义标签-->
+    <declare-styleable name="FlowLayout">
+        <!--各个标签之间的横向距离-->
+        <attr name="flow_view_margin_X" format="dimension" />
+        <!--各个标签之间的纵向距离-->
+        <attr name="flow_view_margin_Y" format="dimension" />
+    </declare-styleable>
+</resources>
