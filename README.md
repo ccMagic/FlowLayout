@@ -81,5 +81,3 @@
 ```
 
 ![](http://wx2.sinaimg.cn/large/bcc7d265gy1frviylhcfej20aa0ibaag.jpg)
-
-图3.自自定义标签显示效果
