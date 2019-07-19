@@ -8,6 +8,8 @@
 
 [源代码:https://github.com/ccMagic/FlowLayout](https://github.com/ccMagic/FlowLayout)
 
+![效果展示](http://wx2.sinaimg.cn/large/bcc7d265gy1frviylhcfej20aa0ibaag.jpg)
+
 #### 使用说明
 
 1. 单独设置每个标签 LabelViewGroup.LabelBean的文本、字体颜色、边框颜色；
@@ -80,4 +82,4 @@
     </io.github.ccmagic.flowlayout.FlowLayout>
 ```
 
-![](http://wx2.sinaimg.cn/large/bcc7d265gy1frviylhcfej20aa0ibaag.jpg)
+
